@@ -32,8 +32,11 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
+    color: white;
+    text-decoration: none;
 }
 nav ul li{
     width:166px;
     float: left;
+    
 }
