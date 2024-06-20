@@ -22,7 +22,7 @@ body{
     font:white;
 }
 nav{
-    display: flexbox;
+    display: flex;
     position: absolute;
     top: 0px;
 }
