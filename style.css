@@ -22,7 +22,13 @@ body{
     font:white;
 }
 nav{
+    background-color: #030A8C;
     display: inline-flex;
     position: absolute;
     top: 0px;
+}
+
+li{
+    display: inline-flex;
+    position: absolute;
 }
