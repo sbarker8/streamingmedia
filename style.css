@@ -23,8 +23,16 @@ body{
 }
 nav{
     background-color: #030A8C;
-    display: flex;
-    align-items: center;
-    top: 0px;
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    z-index: 1;
+    top: 0em;
+    font: white;
+    
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
