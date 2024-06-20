@@ -23,16 +23,17 @@ body{
 }
 nav{
     background-color: #030A8C;
-    display:flex;
-    flex-direction:row;
-    position:relative;
-    z-index: 1;
-    top: 0em;
-    font: white;
+    width: 834px;
+    position:absolute;
+    top: 0px;    
     
 }
 
-a{
-    color: white;
-    text-decoration: none;
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    width:166px;
+    float: left;
 }
