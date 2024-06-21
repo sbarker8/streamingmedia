@@ -115,11 +115,14 @@ border-radius: 50%;
 .scroll dt, .scroll dd{
     color:#590242;
 }
+.scroll dt{
+    font-style: italic;
+}
 dl{ 
     display:flex;
 }
 dt{
-    padding-right: 5px;
+   
 }
 audio{
     position:relative;
