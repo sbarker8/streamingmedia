@@ -117,30 +117,7 @@ audio{
     position:relative;
     bottom: 150px;
     left: 5px;
-}
-#trending::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 15px #590242;
-}
-#trending::-webkit-scrollbar-thumb {
-    background: #590242;
-    border-radius: 5px;
-}
-#trending::-webkit-scrollbar-thumb:hover {
-    background: #020659;
-}
-
-h3, dl{
-    color:#590242;
-}
-.scroll img{
-    z-index:1;
-}
-.scroll figure{
-    z-index: 2;
-}
-.scroll div{
-    z-index: 2;
-   
+    float: left;
 }
 audio::-webkit-media-controls-enclosure {
     background-color: rgb(255 255 255/50%) ;
@@ -156,6 +133,15 @@ audio::-webkit-media-controls-play-button {
     color: black;
     background-color: white;
     border-radius: 50%;
-    
-    
+    }
+
+#trending::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 15px #590242;
+    }
+#trending::-webkit-scrollbar-thumb {
+        background: #590242;
+        border-radius: 5px;
+    }
+#trending::-webkit-scrollbar-thumb:hover {
+        background: #020659;
     }
