@@ -90,6 +90,7 @@ border-radius: 50%;
  display: grid; 
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  overflow: scroll;
+ height: 300px;
  
 }
 
@@ -159,6 +160,7 @@ audio::-webkit-media-controls-play-button {
     }
 
 #more{
+    position: relative;
     float: right;
     right: 3px;
     margin: 5px;
@@ -173,15 +175,26 @@ audio::-webkit-media-controls-play-button {
 }
 
 #playlists{
+   
     color: white;
-    background-color: white;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    position: absolute;
+    position: relative;
     max-width: 834px;
+    margin-top: 40px;
 
 
+
+}
+#playlists h2{
+
+    background-color: white;
+    text-align: left;
+    color:#590242;
+    padding:40px 40px 0px 10px;
+  
+    
 }
 
 #your{
@@ -190,6 +203,7 @@ audio::-webkit-media-controls-play-button {
     flex-direction: column;
     position: relative;
     overflow: scroll;
+    height: 450px;
 }
 
 #curated{
@@ -198,4 +212,5 @@ audio::-webkit-media-controls-play-button {
     flex-direction: column;
     position: relative;
     overflow: scroll;
+    height: 450px;
 }
