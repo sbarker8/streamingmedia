@@ -32,11 +32,19 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
-    color: white;
-    text-decoration: none;
 }
 nav ul li{
-    width:166px;
     float: left;
+    text-align: center;
     
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   padding: 20px;
+
+
+}
+.item{
+    color: blue;
 }
