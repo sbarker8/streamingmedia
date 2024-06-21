@@ -96,13 +96,12 @@ audio::-webkit-media-controls-enclosure {
  display: grid; 
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
  overflow: scroll;
-grid-template-rows: 1fr;
+ 
 }
 
 .scroll section{
     margin: 10px;
     position:relative;
-    width:300px;
 
 }
 .scroll div{
