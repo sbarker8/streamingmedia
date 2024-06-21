@@ -84,10 +84,7 @@ border-radius: 50%;
 
 
 }
-audio::-webkit-media-controls-enclosure {
-    background-color: rgb(255 255 255/50%) ;
 
-}
 
 .scroll{
  display: grid; 
@@ -136,3 +133,23 @@ h3, dl{
 #trending figure{
     z-index: 2;
 }
+#trending div{
+    z-index: 2;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: rgb(255 255 255/50%) ;
+
+}
+audio::-webkit-media-controls-mute-button {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    
+    }
+audio::-webkit-media-controls-play-button {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    
+    
+    }
