@@ -100,8 +100,8 @@ border-radius: 50%;
 }
 .scroll div{
     position:absolute;
-    top: 251px;
-    background-color: rbg(255,255,255,.75);
+    top: 220px;
+    background-color: rgb(255 255 255/50%);
     padding: 5px;
     height: 50px;
     width: 350px;
