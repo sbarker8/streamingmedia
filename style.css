@@ -65,7 +65,7 @@ li:first-child a {
     padding: 1px 35px;
   }
   h2{
-    text-transform: capitalize;
+    text-transform: uppercase;
     color:#590424;
     margin: 30px 30px 5px;
   }
@@ -89,9 +89,6 @@ audio::-webkit-media-controls-enclosure {
 
 }
 
-#trending h3, #trending figcaption{
-    color:#590424;
-}
 .scroll{
  display: grid; 
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -111,6 +108,7 @@ audio::-webkit-media-controls-enclosure {
     padding: 5px;
     height: 50px;
     width: 350px;
+    padding:0;
 }
 .scroll dl{
     display:flex;
@@ -118,13 +116,17 @@ audio::-webkit-media-controls-enclosure {
 .scroll dt{ 
     padding-right: 5px;
 }
-#trending ::-webkit-scrollbar-track{
+#trending::-webkit-scrollbar-track {
     box-shadow: inset 0 0 15px #590242;
 }
-#trending ::-webkit-scrollbar-thumb{
+#trending::-webkit-scrollbar-thumb {
     background: #590242;
     border-radius: 5px;
 }
-#trending ::-webkit-scrollbar-thumb:hover{
+#trending::-webkit-scrollbar-thumb:hover {
     background: #020659;
+}
+
+h3, #trending dt,#trending dd{
+    color:#590242;
 }
