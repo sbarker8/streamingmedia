@@ -107,11 +107,16 @@ border-radius: 50%;
     width: 350px;
     padding:0;
 }
-.scroll dl{
+dl{
     display:flex;
 }
-.scroll dt{ 
+dt{ 
     padding-right: 5px;
+}
+audio{
+    position:relative;
+    bottom: 150px;
+    left: 5px;
 }
 #trending::-webkit-scrollbar-track {
     box-shadow: inset 0 0 15px #590242;
