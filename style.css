@@ -109,8 +109,8 @@ border-radius: 50%;
 }
 .scroll dl{
     background-color: rgb(255 255 255/50%);  
-    top:2px;
-    padding:0 0 10px 2px;
+    top:10px;
+    padding:0 0 15px 5px;
 }
 .scroll dt, .scroll dd{
     color:#590242;
@@ -121,9 +121,7 @@ border-radius: 50%;
 dl{ 
     display:flex;
 }
-dt{
-   
-}
+
 audio{
     position:relative;
     bottom: 150px;
