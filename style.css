@@ -109,6 +109,8 @@ border-radius: 50%;
 }
 .scroll dl{
     background-color: rgb(255 255 255/50%);  
+    top:2px;
+    padding:0 0 10px 2px;
 }
 .scroll dt, .scroll dd{
     color:#590242;
