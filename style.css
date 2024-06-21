@@ -127,14 +127,15 @@ border-radius: 50%;
 h3, dl{
     color:#590242;
 }
-#trending img{
+.scroll img{
     z-index:1;
 }
-#trending figure{
+.scroll figure{
     z-index: 2;
 }
-#trending div{
+.scroll div{
     z-index: 2;
+   
 }
 audio::-webkit-media-controls-enclosure {
     background-color: rgb(255 255 255/50%) ;
