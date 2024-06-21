@@ -113,6 +113,12 @@ grid-template-rows: 1fr;
     height: 50px;
     width: 350px;
 }
+.scroll dl{
+    display:flex;
+}
+.scroll dt{ 
+    padding-right: 5px;
+}
 #trending ::-webkit-scrollbar-track{
     box-shadow: inset 0 0 15px #590242;
 }
