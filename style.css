@@ -105,7 +105,10 @@ border-radius: 50%;
     padding: 5px;
     height: 50px;
     width: 350px;
-   
+   float: left;
+}
+.scroll dl{
+    background-color: rgb(255 255 255/50%);  
 }
 dl{
     display:flex;
@@ -145,3 +148,17 @@ audio::-webkit-media-controls-play-button {
 #trending::-webkit-scrollbar-thumb:hover {
         background: #020659;
     }
+
+#more{
+    float: right;
+    right: 3px;
+    margin: 5px;
+
+}
+#more a{
+    color: white;
+    background-color: #590242;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
