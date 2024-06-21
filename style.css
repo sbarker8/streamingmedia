@@ -171,3 +171,31 @@ audio::-webkit-media-controls-play-button {
     padding: 10px 20px;
     border-radius: 8px;
 }
+
+#playlists{
+    color: white;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: absolute;
+    max-width: 834px;
+
+
+}
+
+#your{
+    background-color: #2699fb;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: scroll;
+}
+
+#curated{
+    background-color: #030a8c;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: scroll;
+}
