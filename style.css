@@ -94,7 +94,7 @@ border-radius: 50%;
 }
 
 .scroll section{
-    margin: 10px;
+    margin: 5px;
     position:relative;
 
 }
@@ -110,10 +110,13 @@ border-radius: 50%;
 .scroll dl{
     background-color: rgb(255 255 255/50%);  
 }
-dl{
+.scroll dt, .scroll dd{
+    color:#590242;
+}
+dl{ 
     display:flex;
 }
-dt{ 
+dt{
     padding-right: 5px;
 }
 audio{
