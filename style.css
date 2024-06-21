@@ -103,3 +103,33 @@ audio::-webkit-media-controls-enclosure {
 #trending h3, #trending figcaption{
     color:#590424;
 }
+.scroll{
+ display: flex;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+ overflow-x: auto;   
+ overflow-y: hidden;
+}
+
+.scroll section{
+    margin: 10px;
+    position:relative;
+
+}
+.scroll div{
+    position:absolute;
+    top: 251px;
+    background-color: rbg(255,255,255,.75);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+}
+#trending ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 15px #590242;
+}
+#trending ::-webkit-scrollbar-thumb{
+    background: #590242;
+    border-radius: 5px;
+}
+#trending ::-webkit-scrollbar-thumb:hover{
+    background: #020659;
+}
