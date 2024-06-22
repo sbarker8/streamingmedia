@@ -133,7 +133,7 @@ dt{
 
       display: grid;
       grid-template-columns: max-content auto;   
-   
+   margin: 10px;
 }
 
 
