@@ -133,13 +133,15 @@ dl{
 }
 
 audio{
-    position:relative;
+    position:absolute;
     bottom: 150px;
     left: 5px;
     float: left;
 }
 audio::-webkit-media-controls-enclosure {
     background-color: rgb(255 255 255/50%) ;
+    float:left;
+
 
 }
 audio::-webkit-media-controls-mute-button {
