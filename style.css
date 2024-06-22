@@ -11,7 +11,9 @@ p, dl, dd {font-size: 1em;
 footer p {font-size: .75em;
 }
 
-html{background: #020659 ;
+html{
+    background: #020659 ;
+    height: auto;
 } 
 /*-----page-----*/
 body{
@@ -179,18 +181,51 @@ audio::-webkit-media-controls-play-button {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
     width: 834px;
+    margin-top:15px;
 
 }
 .your div{
+color: white;
  height: 400px;
  overflow:scroll;
  display:flex;
  flex-direction:column;
-
+ background-color:#2699fb;
+}
+.your section{
+    background-color: #0d8dfb;
+    margin: 5px;
+}
+.your aside{
+    float:right;
+}
+.your aside a{
+    background-color:#590242;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 .curated div{
     height: 400px;
     overflow:scroll;
     display:flex;
     flex-direction:column;
+    background-color:#030A8C;
+    color: white;
 }
+.curated section{
+    margin: 5px;
+    background-color: #020873;
+}
+.curated aside{
+    float:right;
+}
+.curated aside a{
+    background-color:#590242;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.
