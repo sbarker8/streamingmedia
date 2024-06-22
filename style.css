@@ -52,6 +52,8 @@ li:first-child a {
     font-size: x-large;
     justify-content:left;
     text-transform: none;
+    padding: none;
+    margin-left:0px;
    
   }
   /*-----H1 P H2-----*/
@@ -111,14 +113,13 @@ border-radius: 50%;
 }
 .scroll div{
     position:absolute;
-    top: 200px;
+    top: 251px;
     background-color: rgb(255 255 255/50%);
     height: 50px;
     width: 350px;
-   float: left;
    color:#590242;
   
-   
+
 }
 .scroll h3{
     top: 5px;
