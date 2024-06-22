@@ -13,7 +13,7 @@ footer p {font-size: .75em;
 
 html{
     background: #020659 ;
-    height: auto;
+
 } 
 /*-----page-----*/
 body{
@@ -182,9 +182,9 @@ audio::-webkit-media-controls-play-button {
 #playlists{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
     width: 834px;
     margin-top:15px;
+   
 
 }
 #playlists h3{
@@ -253,4 +253,13 @@ audio::-webkit-media-controls-play-button {
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
+}
+footer{
+   margin:75px;
+
+}
+footer p{
+    text-align: center;
+   padding-bottom: 20px;
+    color: #590242;
 }
