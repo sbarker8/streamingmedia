@@ -24,6 +24,9 @@ body{
     color:white;
 }
 /*-----navigation-----*/
+
+    
+
 nav{
     background-color: #030A8C;
     width: 834px;
@@ -34,13 +37,12 @@ nav{
 
 nav ul{
     display: flex;
-    list-style-type: none; 
-    margin: 0px; 
+    list-style-type: none;   
+    top: 5px;
 }
 nav ul li{
     flex: 1 1 100%;
-    text-align: center;  
-    padding: 10px;
+    text-align: center;   
 }
 nav ul li a{
     color: white;
@@ -291,5 +293,14 @@ footer p{
    padding-bottom: 20px;
     color: #590242;
 }
-/*-------breakpoint styles--------*/
+input{
+    display:none;
+}
 
+/*--------breakpoint styles---------*/
+@media screen and (max-width:375){
+    h1{
+        
+    }
+    
+}
