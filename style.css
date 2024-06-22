@@ -160,7 +160,9 @@ audio::-webkit-media-controls-play-button {
 #trending::-webkit-scrollbar-thumb:hover {
         background: #020659;
     }
-
+#trending{
+    height: 350px;
+}
 #more{
     position: relative;
     float: right;
@@ -192,6 +194,9 @@ color: white;
  flex-direction:column;
  background-color:#2699fb;
 }
+.your img{
+    float:left;
+}
 .your section{
     background-color: #0d8dfb;
     margin: 5px;
@@ -213,6 +218,9 @@ color: white;
     flex-direction:column;
     background-color:#030A8C;
     color: white;
+}
+.curated img{
+    float:left;
 }
 .curated section{
     margin: 5px;
