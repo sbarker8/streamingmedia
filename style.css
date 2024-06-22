@@ -186,6 +186,9 @@ audio::-webkit-media-controls-play-button {
     margin-top:15px;
 
 }
+#playlists h3{
+    font-weight: bold;
+}
 .your div{
 color: white;
  height: 400px;
@@ -193,6 +196,7 @@ color: white;
  display:flex;
  flex-direction:column;
  background-color:#2699fb;
+ text-align: center;
 }
 .your img{
     float:left;
@@ -218,7 +222,9 @@ color: white;
     flex-direction:column;
     background-color:#030A8C;
     color: white;
+    text-align: center;
 }
+
 .curated img{
     float:left;
 }
@@ -236,4 +242,3 @@ color: white;
     border-radius: 8px;
     padding: 10px 20px;
 }
-.
