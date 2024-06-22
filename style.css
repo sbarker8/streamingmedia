@@ -188,22 +188,28 @@ audio::-webkit-media-controls-play-button {
 }
 #playlists h3{
     font-weight: bold;
+    text-align: center;
 }
 .your div{
-color: white;
- height: 400px;
- overflow:scroll;
- display:flex;
- flex-direction:column;
- background-color:#2699fb;
- text-align: center;
+    height: 400px;
+    overflow:scroll;
+    display:flex;
+    flex-direction:column;
+    background-color:#2699fb;
+    color: white;
+    text-align: center;
 }
+
 .your img{
     float:left;
 }
 .your section{
-    background-color: #0d8dfb;
     margin: 5px;
+    background-color:#0d8dfb;
+    text-align: center;
+}
+.your section h3{
+    font-weight: bold;
 }
 .your aside{
     float:right;
@@ -215,6 +221,7 @@ color: white;
     border-radius: 8px;
     padding: 10px 20px;
 }
+
 .curated div{
     height: 400px;
     overflow:scroll;
