@@ -98,7 +98,7 @@ border-radius: 50%;
 .scroll{
  display: grid; 
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- overflow-x: auto;
+ overflow-x: scroll;
  overflow-y: scroll;
  height: 400px;
 
@@ -113,7 +113,7 @@ border-radius: 50%;
 }
 .scroll div{
     position:absolute;
-    top: 251px;
+    top: 260px;
     background-color: rgb(255 255 255/50%);
     height: 50px;
     width: 350px;
@@ -127,14 +127,15 @@ border-radius: 50%;
 }
 
 dt{
-    padding-right: 5px;
+ 
 }
 .scroll dl{
-      
-    bottom:10px;
-    
+
+      display: grid;
+      grid-template-columns: max-content auto;   
    
 }
+
 
 .scroll div dt{
     font-style: italic;
@@ -143,6 +144,7 @@ dt{
 
 .scroll div dd{
     grid-column-start: 2;
+    margin-left: 5px;
 }
 audio{
     position:absolute;
