@@ -130,10 +130,9 @@ dt{
     padding-right: 5px;
 }
 .scroll dl{
-    background-color: rgb(255 255 255/50%);  
-    top:10px;
-    display:inline;
-    float:left;
+      
+    bottom:10px;
+    
    
 }
 
