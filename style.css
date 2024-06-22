@@ -91,24 +91,28 @@ border-radius: 50%;
 .scroll{
  display: grid; 
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- overflow: scroll;
- height: 300px;
+ overflow-x: auto;
+ overflow-y: hidden;
+ height: 400px;
+
  
 }
 
 .scroll section{
-    margin: 5px;
+    margin: 10px;
     position:relative;
+
 
 }
 .scroll div{
     position:absolute;
-    top: 220px;
+    top: 251px;
     background-color: rgb(255 255 255/50%);
     padding: 5px;
     height: 50px;
     width: 350px;
    float: left;
+   color:#590242;
 }
 .scroll dl{
     background-color: rgb(255 255 255/50%);  
@@ -210,6 +214,7 @@ audio::-webkit-media-controls-play-button {
 }
 .your section h3{
     font-weight: bold;
+    text-transform: uppercase;
 }
 .your aside{
     float:right;
@@ -238,6 +243,9 @@ audio::-webkit-media-controls-play-button {
 .curated section{
     margin: 5px;
     background-color: #020873;
+}
+.curated section h3{
+    text-transform: uppercase;
 }
 .curated aside{
     float:right;
