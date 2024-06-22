@@ -118,17 +118,14 @@ border-radius: 50%;
     height: 50px;
     width: 350px;
    color:#590242;
-  
+  display: grid;
 
 }
 .scroll h3{
     top: 5px;
     margin: 0;
 }
-dl{
-    display: flex;
 
-}
 dt{
     padding-right: 5px;
 }
@@ -140,13 +137,14 @@ dt{
    
 }
 
-.scroll dt, .scroll dd{
-    color:#590242;
-}
 .scroll dt{
     font-style: italic;
+    grid-column-start: 1;
 }
 
+.scroll dd{
+    grid-column-start: 2;
+}
 audio{
     position:absolute;
     bottom: 200px;
