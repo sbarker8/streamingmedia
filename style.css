@@ -297,10 +297,6 @@ input{
     display:none;
 }
 
-/*--------breakpoint styles---------*/
-@media screen and (max-width:375){
-    h1{
-        
-    }
+
+
     
-}
