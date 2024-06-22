@@ -34,19 +34,24 @@ nav{
 
 nav ul{
     display: flex;
-    list-style-type: none;   
+    list-style-type: none; 
+    margin: 0px; 
 }
 nav ul li{
     flex: 1 1 100%;
-    text-align: center;   
+    text-align: center;  
+    padding: 10px;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
     font-weight: lighter;
     text-transform: uppercase;
-}
 
+}
+nav ul li:hover{
+    background-color: #590242;
+}
 li:first-child a {
     font-weight: bold;
     font-size: x-large;
@@ -54,6 +59,7 @@ li:first-child a {
     text-transform: none;
     padding: none;
     margin-left:0px;
+    float:left;
    
   }
   /*-----H1 P H2-----*/
@@ -101,8 +107,8 @@ border-radius: 50%;
  overflow-x: scroll;
  overflow-y: scroll;
  height: 400px;
+ padding: 0px;
 
- 
 }
 
 .scroll section{
@@ -126,14 +132,12 @@ border-radius: 50%;
     margin: 0;
 }
 
-dt{
- 
-}
+
 .scroll dl{
 
       display: grid;
       grid-template-columns: max-content auto;   
-   margin: 10px;
+    margin: 10px;
 }
 
 
@@ -170,19 +174,17 @@ audio::-webkit-media-controls-play-button {
     border-radius: 50%;
     }
 
-.scroll::-webkit-scrollbar-track {
+#trending::-webkit-scrollbar-track {
         box-shadow: inset 0 0 15px #590242;
     }
-.scroll::-webkit-scrollbar-thumb {
+#trending::-webkit-scrollbar-thumb {
         background: #590242;
         border-radius: 5px;
     }
-.scroll::-webkit-scrollbar-thumb:hover {
+#trending::-webkit-scrollbar-thumb:hover {
         background: #020659;
     }
-#trending{
-    height: 350px;
-}
+
 #more{
     position: relative;
     float: right;
@@ -272,6 +274,13 @@ audio::-webkit-media-controls-play-button {
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 20px;
+    
+}
+aside a:hover{
+    background-color:#020659;
+}
+#more a:hover{
+    background-color:#020659;  
 }
 footer{
    margin:75px;
@@ -282,3 +291,5 @@ footer p{
    padding-bottom: 20px;
     color: #590242;
 }
+/*-------breakpoint styles--------*/
+
